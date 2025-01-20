@@ -10,12 +10,12 @@ import Skills from './components/Skills'
 function App() {
   return (
     <div>
+      <Navbar/>
       <Hero/>
       <About/>
-      <Contact/>
-      <Navbar/>
-      <Projects/>
       <Skills/>
+      <Projects/>
+      <Contact/>
       <Footer/>
     </div>
   )
